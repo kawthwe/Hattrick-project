@@ -1,0 +1,137 @@
+*{
+      /* font-family: "Lobster Two", sans-serif; */
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+.container{
+    width: 90%;
+}
+.navbar{
+    background-color:rgb(1, 1, 1);
+    display: flex;
+    justify-content: space-around;
+}
+.nav-logo{
+    width:30%;
+}
+.navbar .nav-logo h1{
+    font-size: x-large;
+    width: 70px;
+    color: rgb(245, 245, 245);
+  }
+   .navbar .nav-menu{
+        width: 30%;
+       
+
+
+   }
+  .navbar ul{
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 10px;
+
+  }
+   .navbar ul li a{
+     color: #fff;
+     font-weight: 600;
+     font-size: large;
+   }
+   #home{
+    background-color: rgb(255, 255, 255);
+    width: 100% ;
+   }
+   #home .home {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   }
+   
+   .home-img{
+     width: 30%;
+     padding: 50px 50px;
+   }
+    .home  .home-img img{
+        width: 400px;
+        height: 500px;
+        margin: 10px 30px;
+        border: 10px solid #eee;
+        border-radius: 20px;
+
+    }
+    .home-text{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .home .home-text-1 h2{
+        
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    .home .home-text-1 h3{
+        
+        font-size: 30px;
+    }
+   .home-text-2{
+         display: flex;
+         flex-direction: column;
+         width: 60%;
+
+   }
+   .price h3{
+    margin-top: 50px;
+   }
+    .counter{
+        margin: 70px 20px;
+        background-color: #eee;
+        height: 30%;
+        border: 1px black solid;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+
+    }
+ 
+    .counter-2{
+        width: 80px;
+        height: 30px;
+        border: 1px black solid;
+        text-align: center;
+        padding-top: 10px ;
+    } 
+     .control{
+         width:20%;
+         display: flex;
+
+     }
+    .control input{
+        color:#000;
+        font-size: 18px;
+        font-weight: 200;
+        background-color: #eee;
+        border :2px solid rgb(94, 94, 94);
+        width:150px;
+        margin: 10px 5px;
+        padding: 10px 10px;
+        text-align: center;
+
+        
+    }
+     .description{
+        margin-top: 150px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction:column;
+     }
+    .description p{
+        color: #393737;
+        font-size: 24px;
+        font-weight:250;
+        text-align: center;
+
+
+    }
