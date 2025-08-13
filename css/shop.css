@@ -29,7 +29,26 @@ a{
  color: white;
  font-size:100px;
 
+}.card h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
 }
+.card h2 span{
+    font-size: 18px;
+}
+.card h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+    line-height: 1em;
+}
+
+
 @media screen and (max-width:576px){
 
     #HOME .layer h1{
