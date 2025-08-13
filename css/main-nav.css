@@ -1,50 +1,48 @@
 *{
-    margin: 0;
+ margin: 0;
 padding: 0;
 list-style: none;
 text-decoration: none;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* start section navbar */
-
 .navbar-1{
-
-    background-color: black;
-    color: white;
     display: flex;
+     background-color: black;
+     color: white;
     justify-content: space-evenly;
 }
-    .navbar-1 .nav-logo-1{
-    width: 5%;
-  
-} 
+.navbar-1 .nav-logo-1{
+    width: 8%;
+
+}
 .navbar-1 .nav-logo-1 h2{
-      color: aliceblue;
+    color:white;
+    font-size: x-large;
+     margin-top: 15px;
 }
 
-.navbar-1 .nav-logo-1 h2 a{
-   
-    
-list-style: none;
-text-decoration: none;
-color: aliceblue;
-}
 .navbar-1 .nav-menu-1{
     width: 20%;
+
 }
 .nav-menu-1 ul{
     display: flex;
     justify-content: space-evenly;
+     margin-top: 15px;
 }
 .nav-menu-1 ul li a{
     text-decoration: none;
-    background-color: brown;
     list-style: none;
     color: white;
+   
+    font-weight: 400;
 }
+
+
 .navbar-1 .nav-icon-1{
  
     width: 20%;
+     margin-top: 15px;
 }
 .nav-icon-1 ul{
      display: flex;
@@ -53,6 +51,11 @@ color: aliceblue;
 .navbar-1 .nav-list-1{
   display: none;
   overflow: hidden;
+
+  }
+  .nav-icon-1 ul li a{
+    color: white;
+    font-size: 20px;
   }
 
 @media screen and (max-width:576px) {
@@ -60,41 +63,71 @@ color: aliceblue;
     display: none;
 }
 .navbar-1 .nav-list-1{
-
+ margin-top: 15px;
   display: block;
+  
+
   height: 5vh;
 }
+.navbar-1 .nav-list-1 ul li a{
+text-decoration: none;
+  list-style: none;
+  color: aliceblue;
+}
+
+
 .navbar-1 .nav-list-1:hover{
   height: 20vh;
-
+  margin-top: 15px;
   display: block;
 
 }
 .navbar-1 .nav-logo-1 h2{
-    width: 10%;
+    color:white;
+    background-color: aqua;
+    font-size: large;
+}
+.pro-details{
+    display: flex;
+    flex-direction: column  ;
+    width: 80%;
+    align-items: center;
+   
+}
+.pro-details-img{
+    margin-bottom: 50PX;
+    margin-top: 50PX;
+    width: 70%;
+    height: 75vh;
+
+   
+
+}
+.pro-details .pro-details-img img{
+    width: 100%;
+   height: 75vh;
+
 }
 }
 /* start section pro-details */
 /* start section home */
 
-.home-text{
-    background-color: blue;
-}
+
 .pro-details{
     margin-top: 50PX;
     
 }
 
 .pro-details-img{
-    margin-bottom: 50PX;
-    margin-top: 50PX;
+    margin-bottom: 50PX 0;
+    width: 100%;
 
  
 }
 
 .pro-details .pro-details-img img{
     width: 100%;
-    height: 75%;
+    height: 75vh;
 
 }
 /* ================ */
