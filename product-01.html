@@ -1,66 +1,70 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/main-nav.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/main-nav.css">
     <title>HATTRICK</title>
-  </head>
-  <body>
- 
-     <div class="navbar-1">
-  <div class="nav-logo-1">
-    <h2><a href="index.html">HATTRICK</a></h2>
-  </div>
-  <div class="nav-menu-1">
-    <ul>
-      <li><a href="index.html">home</a></li>
-      <li><a href="#shop">shop</a></li>
-    </ul>
-  </div>
-  <div class="nav-icon-1">
-        <ul >
-            <li>
-              <a href="index.html"
-                ><i class="fa-brands fa-square-facebook"></i
-              ></a>
-            </li>
-            <li>
-              <a href="index.html"
-                ><i class="fa-brands fa-square-whatsapp"></i
-              ></a>
-            </li>
-          </ul>
-  </div>
-
-  <div class="nav-list-1">
-    <i class="fa-regular fa-chart-bar"></i>
-        <ul>
-      <li><a href="index.html">home</a></li> 
-      <li><a href="#shop">shop</a></li>
-    </ul>
-  </div>
-</div>
- 
-
+</head>
+<body>
    
 
-    <!--start pro-details section -->
-    <div class="pro-details d-flex justify-content-evenly">
-      <div class="pro-details-img w-25">
-        <img src="imgs/New imgs/01.jpg" alt="" />
+<nav class="navbar navbar-expand-lg bg-black navbar-dark">
+  <div class="container">
+
+    <a class="navbar-brand" href="index.html">HATTRICK</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Our products
+          </a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="index.html#SHOP">SHOP</a></li>
+            <li><a class="dropdown-item" href="index.html">Contact Us</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="index.html">become a seller</a></li>
+          </ul>
+
+        </li>
+
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+ <!--start pro-details section --> 
+ 
+ <section id="pro-1">
+  <div class="container">
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-4">
+        <div class="card-2">
+        <img src="imgs/New imgs/01.jpg " alt="">
       </div>
-      <div class="pro-details-data d-flex align-items-center w-50">
-        <div class="pro-details-title w-30">
+      </div>
+      <div class="col-1"></div>
+      <div class="col-5">
+        <div class="data">
           <h2>* Al Ahly *</h2>
           <h3>280 L.E</h3>
           <p>
@@ -70,13 +74,18 @@
               whether you’re on the pitch or hanging out with friends.
               Lightweight fabric, excellent breathability, and colors that stay
               vibrant even after washing – so you’re always ready for the next
-              match.</span
-            >
+              match.</span>
           </p>
-          <a href="https://wsend.co/201062341691">BUY NOW</a>
-        </div>
-        <div class="pro-details-text w-20">
-          <table class="table">
+      
+      </div>
+    
+   
+  
+          <div class="pro-data">
+           <a href="https://wsend.co/201062341691">BUY NOW</a>
+        
+            <div class="pro-details-title">
+          <table class="table table-1">
             <tr>
               <td>materia : soft cotton fabric with polyester .</td>
             </tr>
@@ -90,9 +99,14 @@
           </table>
         </div>
       </div>
-    </div>
-    end pro-details section -->
+      </div>
+      </div>
+        </div>
+ </section>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
+   <!--end pro-details section --> 
+
+   <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
