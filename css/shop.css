@@ -92,6 +92,22 @@ a{
  font-size:70px;
 
 }
+.pro-data a{
+    background-color: black;
+    width: 120px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 2px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    top: 195px;
+    left:35%;
+
+}
 }
 .pro-details-title {
     position: absolute;
