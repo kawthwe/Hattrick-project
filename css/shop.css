@@ -96,6 +96,7 @@ a{
     #HOME .layer h1{
  color: white;
  font-size:70px;
+ text-align: center;
 
 }
 .pro-data a{
@@ -105,6 +106,7 @@ a{
     position: absolute;
     border-radius: 50px;
     color: white;
+    margin-bottom: 10px;
     text-decoration: none;
     padding: 10px 2px;
     align-items: center;
@@ -124,10 +126,13 @@ a{
     font-size: 20px;
     text-transform: capitalize;
     text-align: center;
+    color: red;
 }
 .data h2 span{
     font-size: 18px;
     text-align:center;
+}.data p{
+    text-align: center;
 }
 }
 .pro-details-title {
