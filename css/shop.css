@@ -29,7 +29,7 @@ a{
 #HOME .layer h1{
  color: white;
  font-size:100px;
-
+/* card style */
 }.card h2{
     font-size: 25px;
     text-transform: capitalize;
@@ -57,6 +57,8 @@ a{
     height: 60vh;
     
 }
+/* pro-1 style */
+
 #pro-1 .data{
     margin-top: 50px;
     text-align: center;
@@ -64,10 +66,12 @@ a{
 }
 .pro-data{
     position: relative;
-    background-color: brown;
     margin-top: 50px;
 
-  
+  }.data h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: red;
 }
 .pro-data a{
       background-color: black;
@@ -98,6 +102,10 @@ a{
  font-size:70px;
  text-align: center;
 
+}#pro-1 .data{
+    margin-top: 5px;
+    text-align: center;
+    
 }
 .pro-data a{
     background-color: black;
@@ -108,14 +116,23 @@ a{
     color: white;
     margin-bottom: 10px;
     text-decoration: none;
-    padding: 10px 2px;
+    padding: 5px 2px;
     align-items: center;
     text-align: center;
     margin: auto;
-    top: 195px;
+    top: 170px;
     left:35%;
  
 
+}.pro-data{
+    position: relative;
+    margin-top:20px;
+
+  
+}#pro-1 .data{
+    margin-top: 5px;
+    text-align: center;
+    
 }
 .data h2{
     font-size: 25px;
@@ -134,9 +151,4 @@ a{
 }.data p{
     text-align: center;
 }
-}
-.pro-details-title {
-    position: absolute;
-    bottom: 20px;
-    left: 0;
 }

@@ -1,4 +1,4 @@
-*{
+/**{
  margin: 0;
 padding: 0;
 list-style: none;
@@ -110,7 +110,7 @@ text-decoration: none;
 }
 }
 /* start section pro-details */
-/* start section home */
+/* start section 
 
 
 .pro-details{
@@ -131,7 +131,7 @@ text-decoration: none;
 
 }
 /* ================ */
-.pro-details-data{
+/*.pro-details-data{
 position: relative;
 height: 90vh;
 }
@@ -161,7 +161,7 @@ left: 0;
     color: gray;
 }
 /* ================ */
-.pro-details-title a{
+/*.pro-details-title a{
     background-color: black;
     width: 120px;
     display: inline-block;

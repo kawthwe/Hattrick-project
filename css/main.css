@@ -66,13 +66,11 @@
   }
   .navbar-1 .nav-logo-1 h2 {
     width: 10%;
-<<<<<<< HEAD
-}
 
-=======
-  }
->>>>>>> 37a1358d534e786b0cc7d874a1d530e4ddc4b119
 }
+<<<<<<< HEAD
+=======
+
 /* start section pro-details */
 /* start section home */
 
@@ -97,8 +95,8 @@
 }
 .pro-details-title {
   position: absolute;
-  top: 10px;
-  left: 0;
+  top: -30px;
+ right: 5px;
 }
 .pro-details-title h2 {
   margin: 20px 0;
