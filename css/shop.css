@@ -4,17 +4,14 @@
     text-align: start;
 }
 a{
-    color: white;
-   
+    color: white; 
 }
-
 #HOME{
     background-image: url('../imgs/cover-3.jpg');
     height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 
 }
 #HOME .layer{
@@ -24,7 +21,6 @@ a{
     display: flex; 
     justify-content: center;
     align-items: center;
-   
 }
 #HOME .layer h1{
  color: white;
