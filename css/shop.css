@@ -134,7 +134,7 @@ a{
     align-items: center;
     text-align: center;
     margin: auto;
-    top: 240px;
+    bottom: -60px;
     left:35%;
    
  
@@ -166,4 +166,26 @@ a{
 }.data p{
     text-align: center;
 }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .pro-data a{
+    background-color: black;
+    width: 120px;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 5px 2px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    bottom: -150px;
+    left:35%;
+   
+    }
+
+
+    
 }
