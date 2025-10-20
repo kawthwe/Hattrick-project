@@ -137,3 +137,8 @@
   width: 50%;
 
 }}
+.img-card{
+  width: 200px;
+  height: 350px;
+  background-color: gray;
+}

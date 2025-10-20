@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/shop.css" />
+
+    <title>HATTRICK</title>
+    <link rel="icon" type="image/x-icon" href="imgs/New imgs/01.jpg" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">HATTRICK</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#HOME"
+                >Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="index.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Our products
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="shop.html">SHOP</a></li>
+                <li>
+                  <!-- <a class="dropdown-item" href="contact.html">Contact Us</a> -->
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <!-- <li><a class="dropdown-item" href="#">become a seller</a></li> -->
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+<section id="cruds">
+<div class="bg-success mx-auto w-75 p-3">
+    <h1 class="text-center">cruds system</h1> 
+    <div>
+    <label for="productNameInput">name :</label>
+    <input type="text" id="productNameInput" class="form-control">
+</div>
+  <div>
+    <label for="productPriceInput">price :</label>
+    <input type="text" id="productPriceInput" class="form-control">
+</div>
+  <div>
+    <label for="productMatInput">material :</label>
+    <input type="text" id="productMatInput" class="form-control">
+</div>
+ <div>
+    <label for="productShippingInput">shipping :</label>
+    <input type="text" id="productShippingInput" class="form-control">
+</div>
+ <div>
+    <label for="productSizesInput">sizes :</label>
+    <input type="text" id="productSizesInput" class="form-control">
+</div>
+ <div>
+    <label for="productDescriptionInput">description :</label>
+    <input type="text" id="productDescriptionInput" class="form-control">
+    
+</div>
+<input type="file" id="productImageInput" accept="image/*"><br>
+
+<button onclick="addProduct()" class="btn btn-primary m-3 "> Add product  </button>
+<!-- //*<input oninput="searchTerm()" id="searchInput" placeholder="Search By Name" type="search" class="form-control w-75 m-3 mx-auto" >*// -->
+
+ 
+</section>
+
+  
+    <script src="js/main.js"></script>  
+    <script src="js/bootstrap.bundle.min.js"></script>  
+</body>
+</html>
+
